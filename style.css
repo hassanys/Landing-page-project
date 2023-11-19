@@ -1,0 +1,174 @@
+/* font can be imported at the top as url */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* width: 700px; can be used to alter size of */
+    min-height: 100vh;
+    background-color: #1f2937;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 10px;
+    justify-content: space-between;
+    font-family: " Hero-new";
+}
+
+.header{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.hlogo{
+    
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'roboto';
+    color: #f9faf8;
+}
+
+
+.header ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    font-size: 12px;
+    color: #e5e7eb;
+
+}
+
+
+/*  to make things align better */
+
+
+/*  border complete 1/5 yaaaay */
+
+
+.imgntxt{
+display: flex;
+justify-content: space-around;
+}
+
+
+.group{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 215px;
+
+  
+}
+
+/* section 2 mainly complete */
+
+
+.content{
+    background-color: white;
+    padding: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.fourimgs{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+
+}
+
+
+.block{
+    max-width: 150px;
+}
+
+.fourvans{
+    width: 75px;
+}
+/* section 3 mainly complete */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #E5E7EB;
+    padding: 2em 2em;
+}
+
+.quote p {
+    font-weight: bolder;
+    font-size: px;
+    color: #1f2937;
+    width: 70%;
+}
+
+.quote em {
+    font-size: 20px;
+    font-weight: 100;
+    color: #1f2937;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end
+}
+
+  /*  
+.quote p{
+    display: flex;
+    background-color: red;
+    padding: 20px;
+}
+*/
+
+
+/* section 4 mainly complete */
+
+.call{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    
+}
+
+
+.maybe{
+    background-color: #3882F6;
+    display:flex;
+    gap: 50px;
+    padding:10px 50px;
+    margin: 40px;
+    width: 420px;
+    justify-content: space-between;
+}
+
+.butty{
+    display: flex;
+    align-items: center;
+ 
+}
+
+/* sec 5 difficult */
+
+.footer{
+
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
